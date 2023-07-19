@@ -80,7 +80,7 @@ body{
     text-align: justify;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding: 5% 10% 10% 15%;
 }
 
 /* ------------------ searchbar---------------------- */
@@ -95,7 +95,8 @@ body{
     align-items: center;
     text-align: center;
     padding-top: 5%;
-    padding-left: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .search-bar{
