@@ -156,24 +156,29 @@ body{
     padding: 0% 3%;
 }
 
+/*-----------------products images------------*/
 
+#Products{
+    position: relative;
+    overflow: hidden;
+}
+.product-images{
+    padding: 3% 10%;
+}
 
+.col-lg-6.col-md-6.col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.img_large{
+    margin-top: 5px;
+    padding-right: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img{
+    padding: 3px;
+}
 
 
 
