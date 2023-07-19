@@ -73,6 +73,15 @@ body{
     justify-content: center;
 }
 
+.details h1{
+    color: var(--color-hover);
+    margin-bottom: 15px;
+}
+
+.details p{
+    color: #333;
+    margin-bottom: 30px;
+}
 /* ------------------ searchbar---------------------- */
 
 .container_block{
@@ -122,8 +131,14 @@ body{
     color: #333;
 }
 
-/*----offers-----*/
+/*----offers/services-----*/
 
+.services{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
 .offers{
     padding: 4% 15%;
     text-align: center;
@@ -197,4 +212,44 @@ body{
 
 .categories .categories_item .categories_text p{
     margin-bottom: 15px;
+}
+
+/*-----products------*/
+
+.active-filter-btn{
+    background-color: var(--color-hover)!important;
+    color: #fff!important;
+    border-color: var(--color-hover)!important;
+}
+.filter-button-group .btn:hover{
+    color: #fff!important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.fas{
+    color: rgb(255, 255, 143);
 }
