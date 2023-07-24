@@ -3,8 +3,9 @@
 :root{
     --lg-font: 'Kaisei Tokumin', serif;
     --sm-font: 'Poppins', sans-serif;
-    --color-hover: #CBAE7B;
+    --color-hover: #333;
     --c-rgb: 255,255, 255;
+    --main-color: #50C878;
 }
 
 *{
@@ -16,9 +17,7 @@ body{
 }
 
 /* button */
-.bg-primary{
-    background-color: var(--color-hover)!important;
-}
+
 
 .btn:not(.nav-btns button){
     background-color: #fff;
@@ -28,7 +27,7 @@ body{
     border: none;
 }
 .btn:not(.nav-btns button):hover{
-    background-color: var(--color-hover);
+    background-color: rgb(194, 230, 194);
     color: #fff;
     border-color: var(--color-hover);
 }
@@ -74,7 +73,7 @@ body{
 }
 
 .details h1{
-    color: var(--color-hover);
+    color: #fff;
     margin-bottom: 15px;
 }
 
@@ -89,8 +88,8 @@ body{
 }
 
 .intro{
-    padding: 4% 15%;
-    background-color: antiquewhite;
+    padding: 3% 15% 0 15%;
+    background-color: #50C878;
 }
 
 .searchbar{
@@ -152,7 +151,7 @@ body{
 }
 
 .offers h6{
-    color: #CBAE7B;
+    color: var(--main-color);
 }
 
 .offers P{
@@ -199,7 +198,7 @@ body{
 
 .categories .categories_large_item .categories_text h1{
     margin-bottom: 5px;
-    color: #CBAE7B;
+    color: var(--main-color)
 }
 
 .categories .categories_large_item .categories_text p{
@@ -229,7 +228,7 @@ body{
 
 .categories .categories_item .categories_text h1{
     margin-bottom: 5px;
-    color: #CBAE7B;
+    color: var(--main-color);
     font-size: 18px;
 }
 
@@ -277,4 +276,22 @@ body{
 
 .fas{
     color: rgb(255, 255, 143);
+}
+
+
+/* about */
+#about{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+
+
+
+
+
+
+/*----footer----*/
+
+.information{
+    background: #50C878;
 }
