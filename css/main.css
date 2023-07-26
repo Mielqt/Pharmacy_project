@@ -58,8 +58,9 @@ body{
     color: var(--color-hover)!important;
 }
 
-
-
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
 
 /* ------------------ home---------------------- */
 #home{
@@ -83,7 +84,7 @@ body{
 }
 /* ------------------ searchbar---------------------- */
 
-.container_block{
+#container_block{
     margin-top: 100px;
 }
 
@@ -203,7 +204,7 @@ body{
 
 .categories .categories_large_item .categories_text p{
     margin-bottom: 15px;
-    color: #fff;
+    color: black;
 }
 
 .categories .categories_item {
@@ -234,7 +235,7 @@ body{
 
 .categories .categories_item .categories_text p{
     margin-bottom: 15px;
-    color: #fff;
+    color: black;
     font-size: 15px;
 }
 
@@ -277,6 +278,40 @@ body{
 .fas{
     color: rgb(255, 255, 143);
 }
+
+
+.addtocart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.addtocart a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid 	#50C878;
+    border-radius: 50%;
+    font-size: 20px;
+    color: 	#50C878;
+    text-decoration: none;
+    transition: .5s ease;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var);
+}
+.addtocart a:hover{
+    background: #50C878;
+    color: #fff;
+    box-shadow: 0 0 20px #50C878;
+}
+
+
+
+
+
 
 
 /* about */
