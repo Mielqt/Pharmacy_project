@@ -27,24 +27,25 @@
     
                 <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
                     <ul class = "navbar-nav ms-auto text-center">
-                        <li class = "nav-item">
-                            <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-uppercase text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Shop
                             </a>
                             <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Vitamins</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Antibiotics</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">PPE</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Laboratory Equipments</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Medical Equipments</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">First Aid Kit</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Emergency Kit</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Biohazard Protection</a></li>
-                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#">Medical and First Aid Supplies</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Vitamins</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Antibiotics</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">PPE</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Laboratory Equipments</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Medical Equipments</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">First Aid Kit</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Emergency Kit</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Biohazard Protection</a></li>
+                              <li><a class="dropdown-item text-uppercase text-dark text-center" href="#products">Medical and First Aid Supplies</a></li>
                             </ul>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
                         </li>
                     </ul>
                 </div>
@@ -97,6 +98,451 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section id="products">
+                <div class = "row g-0">
+                <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = "*">Vitamins</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".best">Antibiotics</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".feat">PPE</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">Laboratory Equipments</button> 
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".best">First Aid Kit</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">Emergency Kit</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".feat">Biohazard Protection</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">Medical and First Aid Supplies</button>
+                </div>
+    
+                <div class = "collection-list mt-4 row gx-0 gy-3">
+                    <div class = "col-2 p-2 best">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>  
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 new">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 best">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 new">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 best">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-2 p-2 feat">
+                        <div class="card" style="width: 100%;">
+                            <div class="collection-img position-relative">
+                              <img src="images/Media/Media/Biotin Complex with Coconut Oil.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center p-0">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <div class="addtocart">
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-cart-shopping" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class=""><i class="fa-solid fa-heart" alt=""></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="addtocart.html" class=""><i class="fa-solid fa-eye" alt=""></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating">
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Lorem ipsum</p>
+                                <span class = "fw-bold">$ 15.50</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
         <footer class = "py-5 information">

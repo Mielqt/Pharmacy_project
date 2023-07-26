@@ -217,6 +217,73 @@ body{
 }
 
 
+/*-----product choices------*/
+.active-filter-btn{
+    background-color: var(--color-hover)!important;
+    color: #fff!important;
+    border-color: var(--color-hover)!important;
+}
+.filter-button-group .btn:hover{
+    color: #fff!important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.fas{
+    color: rgb(255, 255, 143);
+}
+
+
+.addtocart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.addtocart a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid 	#50C878;
+    border-radius: 50%;
+    font-size: 20px;
+    color: 	#50C878;
+    text-decoration: none;
+    transition: .5s ease;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var);
+}
+.addtocart a:hover{
+    background: #50C878;
+    color: #fff;
+    box-shadow: 0 0 20px #50C878;
+}
 
 
 
